@@ -75,6 +75,18 @@ def reset_activities():
             "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
             "max_participants": 18,
             "participants": ["grace@mergington.edu", "liam@mergington.edu"]
+        },
+        "Soccer Team": {
+            "description": "Outdoor soccer practices and inter-school matches",
+            "schedule": "Tuesdays and Fridays, 5:00 PM - 6:30 PM",
+            "max_participants": 22,
+            "participants": ["ethan@mergington.edu", "oliver@mergington.edu"]
+        },
+        "Swimming Club": {
+            "description": "Lap swimming, technique training, and swim meets",
+            "schedule": "Mondays, Wednesdays, 4:30 PM - 6:00 PM",
+            "max_participants": 20,
+            "participants": ["hannah@mergington.edu", "sophia@mergington.edu"]
         }
     })
     yield
